@@ -10,3 +10,6 @@ if len(sys.argv) > 1:
 
     merger.write("result.pdf")
     merger.close()
+
+else:
+    print('No PDF to merge.....')
